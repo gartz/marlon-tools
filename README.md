@@ -1,6 +1,9 @@
 # marlon-tools
 Automatically exported from code.google.com/p/marlon-tools
 
+I've found a github account that looks like to be the original author of this code.
+Please share the love with him: https://github.com/marlonyao
+
 **dnsproxy**
 
 A simple DNS proxy server, support wilcard hosts, IPv6, cache.

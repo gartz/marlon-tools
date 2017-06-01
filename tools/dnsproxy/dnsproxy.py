@@ -168,7 +168,7 @@ def load_hosts(hosts_file):
     def wildcard_line(line):
         parts = line.strip().split()[:2]
         if len(parts) < 2: return False
-        if not parts[1].startswith('*'): return False
+        #if not parts[1].startswith('*'): return False
         try:
             packed_ip = addr_p2n(parts[0])
             return packed_ip, parts[1][1:]
